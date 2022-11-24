@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    user-select: none;
+}
+
+table {
+    margin-left: 20px;
+}
+td {
+    text-align: left;
+    padding: 8px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #dddddd;
+}
+
+td:hover {
+    background-color: #dddddd;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.container {
+    font-size: 30px;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    background: orange;
+}
+
+.container div {
+    margin: auto;
+}
+
+.current-turn {
+    margin-left: 12px;
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    background: darkcyan;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
